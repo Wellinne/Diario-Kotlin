@@ -12,7 +12,8 @@
         android:layout_width="211dp"
         android:layout_height="112dp"
         android:contentDescription="@string/cin_logo"
-        android:src="@drawable/logocin" />
+        android:src="@drawable/logocin"
+        android:fontFamily="sans-serif-condensed-medium"/>
 
     <TextView
         android:id="@+id/textViewLogin"
@@ -21,9 +22,10 @@
         android:layout_marginTop="24dp"
         android:gravity="center"
         android:text="@string/bemvindo"
-        android:textColor="@color/red_dark"
+        android:textColor="@color/lilas"
         android:textSize="30sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed-medium"/>
 
     <EditText
         android:id="@+id/edtEmailAddress"
@@ -34,10 +36,11 @@
         android:ems="10"
         android:inputType="textEmailAddress"
         android:hint="@string/email"
-        android:textColor="@color/red_dark"
-        android:backgroundTint="@color/red_dark"
+        android:textColor="@color/cinza"
+        android:backgroundTint="@color/cinza"
         android:autofillHints="emailAddress"
-        android:textColorHint="@color/red_dark"/>
+        android:textColorHint="@color/cinza"
+        android:fontFamily="sans-serif-condensed-medium"/>
 
     <EditText
         android:id="@+id/edtPassword"
@@ -47,11 +50,12 @@
         android:layout_marginTop="10dp"
         android:ems="10"
         android:inputType="textPassword"
-        android:hint="@string/password"
-        android:textColor="@color/red_dark"
-        android:backgroundTint="@color/red_dark"
+        android:hint="@string/senha"
+        android:textColor="@color/cinza"
+        android:backgroundTint="@color/cinza"
         android:autofillHints="password"
-        android:textColorHint="@color/red_dark"/>
+        android:textColorHint="@color/cinza"
+        android:fontFamily="sans-serif-condensed-medium"/>
 
     <Button
         android:id="@+id/buttonLogin"
@@ -60,7 +64,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="@string/login"
-        android:background="@color/red_dark"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:background="@color/amarelo_escuro"
         android:textColor="@color/white"
         android:textSize="18sp"
         android:onClick="login"/>
@@ -72,7 +77,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="@string/cadastro"
-        android:background="@color/red_dark"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:background="@color/amarelo_claro"
         android:textColor="@color/white"
         android:textSize="18sp"
         android:onClick="cadastro"/>
